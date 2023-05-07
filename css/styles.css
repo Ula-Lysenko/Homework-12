@@ -66,7 +66,7 @@ ul {
 }
 
 .carousel {
-  height: 513px;
+  max-height: 513px;
 }
 
 .carousel-img {
@@ -75,8 +75,7 @@ ul {
 
 .description {
   min-height: 288px;
-  display: flex;
-  align-items: center;
+  padding: 42px 0;
   font-size: 28px;
   line-height: 34px;
   text-align: center;
@@ -124,7 +123,7 @@ ul {
 .contact-form {
   height: 120px;
   border: 1px solid;
-  padding: 49px 30px;
+  padding: 0 30px;
   margin-top: 47px;
   margin-bottom: 100px;
   display: flex;
@@ -164,8 +163,7 @@ ul {
 
 .contact-btn {
   border: none;
-  background-color: none;
-  width: 200px;
+  min-width: 200px;
   height: 60px;
   background-color: #000;
   color: #fff;

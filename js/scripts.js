@@ -4,6 +4,9 @@ $(document).ready(function () {
   $(".carousel").slick({
     dots: false,
     arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    infinite: true,
   });
 });
 
